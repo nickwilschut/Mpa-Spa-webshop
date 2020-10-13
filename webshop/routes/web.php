@@ -15,6 +15,6 @@ Route::get('/', 'PageController@index');
 Route::get('/about', 'PageController@about');
 Route::get('/services', 'PageController@services');
 
-Route::resource('/posts', 'MainController')
+Route::resource('/tasks', 'MainController')
 
 ?>

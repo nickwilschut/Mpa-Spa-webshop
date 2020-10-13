@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-dark">
+<nav class="navbar navbar-expand-lg navbar-light bg-dark mb-4">
   <a class="navbar-brand text-success" href="/">Webshop</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -9,12 +9,17 @@
       <li class="nav-item active">
         <a class="nav-link text-light" href="/">Home <span class="sr-only">(current)</span></a>
       </li>
+
       <li class="nav-item">
         <a class="nav-link text-light" href="/services">Services</a>
       </li>
     
       <li class="nav-item">
         <a class="nav-link text-light" href="/about" tabindex="-1" aria-disabled="true">About</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link text-light" href="/tasks" tabindex="-1" aria-disabled="true">Tasks</a>
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
