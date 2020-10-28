@@ -12,7 +12,7 @@ class MainController extends Controller {
      * @return \Illuminate\Http\Response
      */
     public function index() {
-        $MainModel = MainModel::all();
+        $MainModel = MainModel::orderBy('created_at', 'desc')->get();
         return view('posts.index')->with('MainModel', $MainModel);
     }
 
