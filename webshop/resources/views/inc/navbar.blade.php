@@ -9,25 +9,19 @@
       <li class="nav-item active">
         <a class="nav-link text-light" href="/">Home <span class="sr-only">(current)</span></a>
       </li>
-
-      <li class="nav-item">
-        <a class="nav-link text-light" href="/services">Services</a>
+       <li class="nav-item">
+        <a class="nav-link text-light" href="/products" tabindex="-1" aria-disabled="true">Products</a>
       </li>
-    
       <li class="nav-item">
         <a class="nav-link text-light" href="/about" tabindex="-1" aria-disabled="true">About</a>
       </li>
-
       <li class="nav-item">
         <a class="nav-link text-light" href="/tasks" tabindex="-1" aria-disabled="true">Tasks</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link text-light" href="/products" tabindex="-1" aria-disabled="true">Products</a>
-      </li>
     </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
+    <div class="my-2 my-lg-0">
+      <a class="btn btn-primary my-2 my-sm-0" href="/user" aria-disabled="true">My account</a>
+      <a class="btn btn-outline-success my-2 my-sm-0" href="/cart" aria-disabled="true">View shopping cart</a>
+    </div>
   </div>
 </nav>

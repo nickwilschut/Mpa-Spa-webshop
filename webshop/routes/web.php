@@ -13,9 +13,10 @@
 
 Route::get('/', 'PageController@index');
 Route::get('/about', 'PageController@about');
-Route::get('/services', 'PageController@services');
+// Route::get('/services', 'PageController@services');
 
 Route::resource('/tasks', 'MainController');
 Route::resource('/products', 'ProductsController');
+Route::resource('/cart', 'CartController');
 
 ?>
