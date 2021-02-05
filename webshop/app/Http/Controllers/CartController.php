@@ -14,7 +14,8 @@ class CartController extends Controller
      */
     public function index()
     {
-        //
+        $cart = products::orderBy('created_at', 'desc')->get();
+        return view('products.index')->with('products', $products);
     }
 
     /**
